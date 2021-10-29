@@ -874,7 +874,7 @@ const CGFloat kOverlayInset = 10;
     
     presentingVC = vc;
     
-    [presentingVC presentViewController:camera animated:NO completion:nil];
+    [presentingVC presentViewController:camera animated:YES completion:nil];
     
 }
 
