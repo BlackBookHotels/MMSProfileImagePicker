@@ -22,7 +22,7 @@ let package = Package(
     targets: [
         .target(
             name: "MMSProfileImagePicker",
-            dependencies: [],
+            dependencies: ["MMSCameraViewController"],
             path: "Pod/Classes/",
             publicHeadersPath: ".",
 	    linkerSettings: [
